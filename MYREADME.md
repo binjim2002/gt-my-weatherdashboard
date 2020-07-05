@@ -22,6 +22,6 @@ Using Weather-Dashboard is easy and simple. As soon as you open the app, you wil
 
 This app was design and built by binjim2002 (Jimmy B Kazadi)
 
-my URL:  https://binjim2002.github.io/my-weatherdashboard/
- https://github.com/binjim2002/my-weatherdashboard
+my URL:   https://binjim2002.github.io/gt-my-weatherdashboard/
+ https://github.com/binjim2002/gt-my-weatherdashboard
  
