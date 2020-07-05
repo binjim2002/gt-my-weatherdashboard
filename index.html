@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1"> My Weather Dashboard</span>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 first-column">
+        <p class="lead">Search for a City:</p>
+        <input type="text" id="city-search">
+        <button data-location="city-loc" type="submit" id="city-location"><img 
+            alt="Search" /></button>
+        <ul class="cities-list list-group">
+          
+        </ul>
+      </div>
+      <div class="weather-result col-sm-8">
+        <div class="row">
+          <div id="city"> </div>
+          <div id="icon"></div>
+        </div>
+        <div id='time'></div>
+        <div> <span id="wind"></span></div>
+        <div id="humidity"></div>
+        <div id="tempF"></div>
+        <div id="uv-index"></div>
+        <div class="card-deck forecast-columns">
+          <div class="card">
+            <img class=""  alt="5-Day Forecast">
+            <div class="card-city1">
+              <h5 class="card-title1"></h5>
+              <div class="city-forecast"></div>
+              <div class="wind-forecast"></div>
+              <div class="humidity-forecast"></div>
+              <div class="temp-forecast"></div>
+              <p class="card-text1"></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class=""alt="5-Day Forecast">
+            <div class="card-city2">
+              <h5 class="card-title2"></h5>
+              <p class="card-text2"></p>
+
+            </div>
+          </div>
+          <div class="card">
+            <img class="" alt="5-Day Forecast">
+            <div class="card-city3">
+              <h5 class="card-title3"></h5>
+              <p class="card-text3"></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class=""  alt="5-Day Forecast">
+            <div class="card-city4">
+              <h5 class="card-title4"></h5>
+              <p class="card-text4"></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class=""  alt="5-Day Forecast">
+            <div class=" card-city5">
+              <h5 class="card-title5"></h5>
+              <p class="card-text5"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
